@@ -1,0 +1,50 @@
+[
+  {
+    "UserName": "mama",
+    "Image": "Assets\\arici.jpg",
+    "GamesPlayed": 0,
+    "GamesWon": 0
+  },
+  {
+    "UserName": "adri",
+    "Image": "Assets\\pisica.jpg",
+    "GamesPlayed": 0,
+    "GamesWon": 0
+  },
+  {
+    "UserName": "eu",
+    "Image": "Assets\\arici.jpg",
+    "GamesPlayed": 0,
+    "GamesWon": 0
+  },
+  {
+    "UserName": "2",
+    "Image": "Assets\\panda.jpg",
+    "GamesPlayed": 0,
+    "GamesWon": 0
+  },
+  {
+    "UserName": "4",
+    "Image": "Assets\\arici.jpg",
+    "GamesPlayed": 0,
+    "GamesWon": 0
+  },
+  {
+    "UserName": "canili",
+    "Image": "..\\..\\..\\Assets\\caine.jpg",
+    "GamesPlayed": 0,
+    "GamesWon": 0
+  },
+  {
+    "UserName": "pengu",
+    "Image": "..\\..\\..\\Assets\\pingu.jpg",
+    "GamesPlayed": 0,
+    "GamesWon": 0
+  },
+  {
+    "UserName": "nati",
+    "Image": "..\\..\\..\\Assets\\caine.jpg",
+    "GamesPlayed": 0,
+    "GamesWon": 0
+  }
+]

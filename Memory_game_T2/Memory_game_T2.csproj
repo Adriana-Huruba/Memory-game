@@ -1,0 +1,340 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="arici.jpg" />
+    <None Remove="Assets\1.jpg" />
+    <None Remove="Assets\10.jpg" />
+    <None Remove="Assets\11.jpg" />
+    <None Remove="Assets\12.jpg" />
+    <None Remove="Assets\13.jpg" />
+    <None Remove="Assets\14.jpg" />
+    <None Remove="Assets\15.jpg" />
+    <None Remove="Assets\arici.jpg" />
+    <None Remove="Assets\caine.jpg" />
+    <None Remove="Assets\Disney\bambi.jpg" />
+    <None Remove="Assets\Disney\bunny.jpg" />
+    <None Remove="Assets\Disney\cat1.jpg" />
+    <None Remove="Assets\Disney\cat2.jpg" />
+    <None Remove="Assets\Disney\cogsworth.jpg" />
+    <None Remove="Assets\Disney\dalmatians.jpg" />
+    <None Remove="Assets\Disney\dori.jpg" />
+    <None Remove="Assets\Disney\dumbo.jpg" />
+    <None Remove="Assets\Disney\lady.jpg" />
+    <None Remove="Assets\Disney\moana.jpg" />
+    <None Remove="Assets\Disney\mouse.jpg" />
+    <None Remove="Assets\Disney\nemo.jpg" />
+    <None Remove="Assets\Disney\piglet.jpg" />
+    <None Remove="Assets\Disney\rapunzel.jpg" />
+    <None Remove="Assets\Disney\rio.jpg" />
+    <None Remove="Assets\Disney\stitch.jpg" />
+    <None Remove="Assets\Disney\tramp.jpg" />
+    <None Remove="Assets\Disney\whinnie.jpg" />
+    <None Remove="Assets\Fruits\apple.jpg" />
+    <None Remove="Assets\Fruits\banana.jpg" />
+    <None Remove="Assets\Fruits\blackberry.jpg" />
+    <None Remove="Assets\Fruits\blueberry.jpg" />
+    <None Remove="Assets\Fruits\cherry.jpg" />
+    <None Remove="Assets\Fruits\grapes.jpg" />
+    <None Remove="Assets\Fruits\kiwi.jpg" />
+    <None Remove="Assets\Fruits\lime.jpg" />
+    <None Remove="Assets\Fruits\mandarin.jpg" />
+    <None Remove="Assets\Fruits\nectarin.jpg" />
+    <None Remove="Assets\Fruits\orange.jpg" />
+    <None Remove="Assets\Fruits\peach.jpg" />
+    <None Remove="Assets\Fruits\pear.jpg" />
+    <None Remove="Assets\Fruits\pineapple.jpg" />
+    <None Remove="Assets\Fruits\quince.jpg" />
+    <None Remove="Assets\Fruits\raspberry.jpg" />
+    <None Remove="Assets\Fruits\strawberry.jpg" />
+    <None Remove="Assets\Fruits\watermelon.jpg" />
+    <None Remove="Assets\Marvel\1.jpg" />
+    <None Remove="Assets\Marvel\10.jpg" />
+    <None Remove="Assets\Marvel\11 - Copy.jpg" />
+    <None Remove="Assets\Marvel\11.jpg" />
+    <None Remove="Assets\Marvel\12 - Copy.jpg" />
+    <None Remove="Assets\Marvel\12.jpg" />
+    <None Remove="Assets\Marvel\13 - Copy.jpg" />
+    <None Remove="Assets\Marvel\13.jpg" />
+    <None Remove="Assets\Marvel\14 - Copy.jpg" />
+    <None Remove="Assets\Marvel\14.jpg" />
+    <None Remove="Assets\Marvel\15 - Copy.jpg" />
+    <None Remove="Assets\Marvel\15.jpg" />
+    <None Remove="Assets\Marvel\16 - Copy.jpg" />
+    <None Remove="Assets\Marvel\16.jpg" />
+    <None Remove="Assets\Marvel\17 - Copy.jpg" />
+    <None Remove="Assets\Marvel\17.jpg" />
+    <None Remove="Assets\Marvel\18 - Copy.jpg" />
+    <None Remove="Assets\Marvel\18.jpg" />
+    <None Remove="Assets\Marvel\2.jpg" />
+    <None Remove="Assets\Marvel\3.jpg" />
+    <None Remove="Assets\Marvel\4.jpg" />
+    <None Remove="Assets\Marvel\5.jpg" />
+    <None Remove="Assets\Marvel\6.jpg" />
+    <None Remove="Assets\Marvel\7.jpg" />
+    <None Remove="Assets\Marvel\8.jpg" />
+    <None Remove="Assets\Marvel\9.jpg" />
+    <None Remove="Assets\panda.jpg" />
+    <None Remove="Assets\pisica.jpg" />
+    <None Remove="panda.jpg" />
+    <None Remove="pisica.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="Assets\**\*.*">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Remove="Assets\arici.jpg" />
+    <Content Remove="Assets\caine.jpg" />
+    <Content Remove="Assets\Disney\bambi.jpg" />
+    <Content Remove="Assets\Disney\bunny.jpg" />
+    <Content Remove="Assets\Disney\cat1.jpg" />
+    <Content Remove="Assets\Disney\cat2.jpg" />
+    <Content Remove="Assets\Disney\cogsworth.jpg" />
+    <Content Remove="Assets\Disney\dalmatians.jpg" />
+    <Content Remove="Assets\Disney\dori.jpg" />
+    <Content Remove="Assets\Disney\dumbo.jpg" />
+    <Content Remove="Assets\Disney\lady.jpg" />
+    <Content Remove="Assets\Disney\moana.jpg" />
+    <Content Remove="Assets\Disney\mouse.jpg" />
+    <Content Remove="Assets\Disney\nemo.jpg" />
+    <Content Remove="Assets\Disney\piglet.jpg" />
+    <Content Remove="Assets\Disney\rapunzel.jpg" />
+    <Content Remove="Assets\Disney\rio.jpg" />
+    <Content Remove="Assets\Disney\stitch.jpg" />
+    <Content Remove="Assets\Disney\tramp.jpg" />
+    <Content Remove="Assets\Disney\whinnie.jpg" />
+    <Content Remove="Assets\Fruits\apple.jpg" />
+    <Content Remove="Assets\Fruits\banana.jpg" />
+    <Content Remove="Assets\Fruits\blackberry.jpg" />
+    <Content Remove="Assets\Fruits\blueberry.jpg" />
+    <Content Remove="Assets\Fruits\cherry.jpg" />
+    <Content Remove="Assets\Fruits\grapes.jpg" />
+    <Content Remove="Assets\Fruits\kiwi.jpg" />
+    <Content Remove="Assets\Fruits\lime.jpg" />
+    <Content Remove="Assets\Fruits\mandarin.jpg" />
+    <Content Remove="Assets\Fruits\nectarin.jpg" />
+    <Content Remove="Assets\Fruits\orange.jpg" />
+    <Content Remove="Assets\Fruits\peach.jpg" />
+    <Content Remove="Assets\Fruits\pear.jpg" />
+    <Content Remove="Assets\Fruits\pineapple.jpg" />
+    <Content Remove="Assets\Fruits\quince.jpg" />
+    <Content Remove="Assets\Fruits\raspberry.jpg" />
+    <Content Remove="Assets\Fruits\strawberry.jpg" />
+    <Content Remove="Assets\Fruits\watermelon.jpg" />
+    <Content Remove="Assets\Marvel\1.jpg" />
+    <Content Remove="Assets\Marvel\10.jpg" />
+    <Content Remove="Assets\Marvel\11.jpg" />
+    <Content Remove="Assets\Marvel\12.jpg" />
+    <Content Remove="Assets\Marvel\13.jpg" />
+    <Content Remove="Assets\Marvel\14.jpg" />
+    <Content Remove="Assets\Marvel\15.jpg" />
+    <Content Remove="Assets\Marvel\16.jpg" />
+    <Content Remove="Assets\Marvel\17.jpg" />
+    <Content Remove="Assets\Marvel\18.jpg" />
+    <Content Remove="Assets\Marvel\2.jpg" />
+    <Content Remove="Assets\Marvel\3.jpg" />
+    <Content Remove="Assets\Marvel\4.jpg" />
+    <Content Remove="Assets\Marvel\5.jpg" />
+    <Content Remove="Assets\Marvel\6.jpg" />
+    <Content Remove="Assets\Marvel\7.jpg" />
+    <Content Remove="Assets\Marvel\8.jpg" />
+    <Content Remove="Assets\Marvel\9.jpg" />
+    <Content Remove="Assets\panda.jpg" />
+    <Content Remove="Assets\pingu.jpg" />
+    <Content Remove="Assets\pisica.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Assets\arici.jpg">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\caine.jpg">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\Disney\bambi.jpg">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\Disney\bunny.jpg">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\Disney\cat1.jpg">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\Disney\cat2.jpg">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\Disney\cogsworth.jpg">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\Disney\dalmatians.jpg">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\Disney\dori.jpg">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\Disney\dumbo.jpg">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\Disney\lady.jpg">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\Disney\moana.jpg">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\Disney\mouse.jpg">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\Disney\nemo.jpg">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\Disney\piglet.jpg">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\Disney\rapunzel.jpg">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\Disney\rio.jpg">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\Disney\stitch.jpg">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\Disney\tramp.jpg">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\Disney\whinnie.jpg">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\Fruits\apple.jpg">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\Fruits\banana.jpg">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\Fruits\blackberry.jpg">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\Fruits\blueberry.jpg">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\Fruits\cherry.jpg">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\Fruits\grapes.jpg">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\Fruits\kiwi.jpg">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\Fruits\lime.jpg">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\Fruits\mandarin.jpg">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\Fruits\nectarin.jpg">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\Fruits\orange.jpg">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\Fruits\peach.jpg">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\Fruits\pear.jpg">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\Fruits\pineapple.jpg">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\Fruits\quince.jpg">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\Fruits\raspberry.jpg">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\Fruits\strawberry.jpg">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\Fruits\watermelon.jpg">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\Marvel\1.jpg">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\Marvel\10.jpg">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\Marvel\11.jpg">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\Marvel\12.jpg">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\Marvel\13.jpg">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\Marvel\14.jpg">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\Marvel\15.jpg">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\Marvel\16.jpg">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\Marvel\17.jpg">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\Marvel\18.jpg">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\Marvel\2.jpg">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\Marvel\3.jpg">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\Marvel\4.jpg">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\Marvel\5.jpg">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\Marvel\6.jpg">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\Marvel\7.jpg">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\Marvel\8.jpg">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\Marvel\9.jpg">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\panda.jpg">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\pingu.jpg" />
+    <Resource Include="Assets\pisica.jpg">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+  </ItemGroup>
+
+</Project>

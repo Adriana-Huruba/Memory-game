@@ -1,0 +1,321 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\user\\Documents\\Downloads\\Memory_game_T2\\Memory_game_T2\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{BCFA5498-B694-4208-AAE5-2AFEFF90D768}|Memory_game_T2\\Memory_game_T2.csproj|c:\\users\\user\\documents\\downloads\\memory_game_t2\\memory_game_t2\\memory_game_t2\\viewmodels\\gamevm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BCFA5498-B694-4208-AAE5-2AFEFF90D768}|Memory_game_T2\\Memory_game_T2.csproj|solutionrelative:memory_game_t2\\viewmodels\\gamevm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BCFA5498-B694-4208-AAE5-2AFEFF90D768}|Memory_game_T2\\Memory_game_T2.csproj|c:\\users\\user\\documents\\downloads\\memory_game_t2\\memory_game_t2\\memory_game_t2\\models\\card.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BCFA5498-B694-4208-AAE5-2AFEFF90D768}|Memory_game_T2\\Memory_game_T2.csproj|solutionrelative:memory_game_t2\\models\\card.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BCFA5498-B694-4208-AAE5-2AFEFF90D768}|Memory_game_T2\\Memory_game_T2.csproj|c:\\users\\user\\documents\\downloads\\memory_game_t2\\memory_game_t2\\memory_game_t2\\views\\gamewindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{BCFA5498-B694-4208-AAE5-2AFEFF90D768}|Memory_game_T2\\Memory_game_T2.csproj|solutionrelative:memory_game_t2\\views\\gamewindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BCFA5498-B694-4208-AAE5-2AFEFF90D768}|Memory_game_T2\\Memory_game_T2.csproj|c:\\users\\user\\documents\\downloads\\memory_game_t2\\memory_game_t2\\memory_game_t2\\viewmodels\\loginvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BCFA5498-B694-4208-AAE5-2AFEFF90D768}|Memory_game_T2\\Memory_game_T2.csproj|solutionrelative:memory_game_t2\\viewmodels\\loginvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BCFA5498-B694-4208-AAE5-2AFEFF90D768}|Memory_game_T2\\Memory_game_T2.csproj|c:\\users\\user\\documents\\downloads\\memory_game_t2\\memory_game_t2\\memory_game_t2\\views\\menupage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{BCFA5498-B694-4208-AAE5-2AFEFF90D768}|Memory_game_T2\\Memory_game_T2.csproj|solutionrelative:memory_game_t2\\views\\menupage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BCFA5498-B694-4208-AAE5-2AFEFF90D768}|Memory_game_T2\\Memory_game_T2.csproj|c:\\users\\user\\documents\\downloads\\memory_game_t2\\memory_game_t2\\memory_game_t2\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BCFA5498-B694-4208-AAE5-2AFEFF90D768}|Memory_game_T2\\Memory_game_T2.csproj|solutionrelative:memory_game_t2\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BCFA5498-B694-4208-AAE5-2AFEFF90D768}|Memory_game_T2\\Memory_game_T2.csproj|c:\\users\\user\\documents\\downloads\\memory_game_t2\\memory_game_t2\\memory_game_t2\\models\\game.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BCFA5498-B694-4208-AAE5-2AFEFF90D768}|Memory_game_T2\\Memory_game_T2.csproj|solutionrelative:memory_game_t2\\models\\game.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BCFA5498-B694-4208-AAE5-2AFEFF90D768}|Memory_game_T2\\Memory_game_T2.csproj|c:\\users\\user\\documents\\downloads\\memory_game_t2\\memory_game_t2\\memory_game_t2\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{BCFA5498-B694-4208-AAE5-2AFEFF90D768}|Memory_game_T2\\Memory_game_T2.csproj|solutionrelative:memory_game_t2\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BCFA5498-B694-4208-AAE5-2AFEFF90D768}|Memory_game_T2\\Memory_game_T2.csproj|c:\\users\\user\\documents\\downloads\\memory_game_t2\\memory_game_t2\\memory_game_t2\\views\\gamewindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BCFA5498-B694-4208-AAE5-2AFEFF90D768}|Memory_game_T2\\Memory_game_T2.csproj|solutionrelative:memory_game_t2\\views\\gamewindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BCFA5498-B694-4208-AAE5-2AFEFF90D768}|Memory_game_T2\\Memory_game_T2.csproj|c:\\users\\user\\documents\\downloads\\memory_game_t2\\memory_game_t2\\memory_game_t2\\viewmodels\\menuvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BCFA5498-B694-4208-AAE5-2AFEFF90D768}|Memory_game_T2\\Memory_game_T2.csproj|solutionrelative:memory_game_t2\\viewmodels\\menuvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BCFA5498-B694-4208-AAE5-2AFEFF90D768}|Memory_game_T2\\Memory_game_T2.csproj|c:\\users\\user\\documents\\downloads\\memory_game_t2\\memory_game_t2\\memory_game_t2\\views\\menupage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BCFA5498-B694-4208-AAE5-2AFEFF90D768}|Memory_game_T2\\Memory_game_T2.csproj|solutionrelative:memory_game_t2\\views\\menupage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BCFA5498-B694-4208-AAE5-2AFEFF90D768}|Memory_game_T2\\Memory_game_T2.csproj|c:\\users\\user\\documents\\downloads\\memory_game_t2\\memory_game_t2\\memory_game_t2\\views\\customgamemodedialog.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{BCFA5498-B694-4208-AAE5-2AFEFF90D768}|Memory_game_T2\\Memory_game_T2.csproj|solutionrelative:memory_game_t2\\views\\customgamemodedialog.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BCFA5498-B694-4208-AAE5-2AFEFF90D768}|Memory_game_T2\\Memory_game_T2.csproj|c:\\users\\user\\documents\\downloads\\memory_game_t2\\memory_game_t2\\memory_game_t2\\views\\customgamemodedialog.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BCFA5498-B694-4208-AAE5-2AFEFF90D768}|Memory_game_T2\\Memory_game_T2.csproj|solutionrelative:memory_game_t2\\views\\customgamemodedialog.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BCFA5498-B694-4208-AAE5-2AFEFF90D768}|Memory_game_T2\\Memory_game_T2.csproj|c:\\users\\user\\documents\\downloads\\memory_game_t2\\memory_game_t2\\memory_game_t2\\commands\\relaycommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BCFA5498-B694-4208-AAE5-2AFEFF90D768}|Memory_game_T2\\Memory_game_T2.csproj|solutionrelative:memory_game_t2\\commands\\relaycommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BCFA5498-B694-4208-AAE5-2AFEFF90D768}|Memory_game_T2\\Memory_game_T2.csproj|c:\\users\\user\\documents\\downloads\\memory_game_t2\\memory_game_t2\\memory_game_t2\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{BCFA5498-B694-4208-AAE5-2AFEFF90D768}|Memory_game_T2\\Memory_game_T2.csproj|solutionrelative:memory_game_t2\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\user\\AppData\\Local\\Temp\\.vsdbgsrc\\b49ace08f4cd26a4f275d628999a0f91ccb8a1892704530d9e6f5bd1284082f1\\ResourcePart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BCFA5498-B694-4208-AAE5-2AFEFF90D768}|Memory_game_T2\\Memory_game_T2.csproj|c:\\users\\user\\documents\\downloads\\memory_game_t2\\memory_game_t2\\memory_game_t2\\viewmodels\\statisticsvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BCFA5498-B694-4208-AAE5-2AFEFF90D768}|Memory_game_T2\\Memory_game_T2.csproj|solutionrelative:memory_game_t2\\viewmodels\\statisticsvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BCFA5498-B694-4208-AAE5-2AFEFF90D768}|Memory_game_T2\\Memory_game_T2.csproj|c:\\users\\user\\documents\\downloads\\memory_game_t2\\memory_game_t2\\memory_game_t2\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BCFA5498-B694-4208-AAE5-2AFEFF90D768}|Memory_game_T2\\Memory_game_T2.csproj|solutionrelative:memory_game_t2\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 255,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Game.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Documents\\Downloads\\Memory_game_T2\\Memory_game_T2\\Memory_game_T2\\Models\\Game.cs",
+              "RelativeDocumentMoniker": "Memory_game_T2\\Models\\Game.cs",
+              "ToolTip": "C:\\Users\\user\\Documents\\Downloads\\Memory_game_T2\\Memory_game_T2\\Memory_game_T2\\Models\\Game.cs",
+              "RelativeToolTip": "Memory_game_T2\\Models\\Game.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-08T10:09:28.441Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "MenuVM.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Documents\\Downloads\\Memory_game_T2\\Memory_game_T2\\Memory_game_T2\\ViewModels\\MenuVM.cs",
+              "RelativeDocumentMoniker": "Memory_game_T2\\ViewModels\\MenuVM.cs",
+              "ToolTip": "C:\\Users\\user\\Documents\\Downloads\\Memory_game_T2\\Memory_game_T2\\Memory_game_T2\\ViewModels\\MenuVM.cs",
+              "RelativeToolTip": "Memory_game_T2\\ViewModels\\MenuVM.cs",
+              "ViewState": "AgIAACwAAAAAAAAAAAAgwDoAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-09T13:55:03.047Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{a80febb4-e7e0-4147-b476-21aaf2453969}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Card.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Documents\\Downloads\\Memory_game_T2\\Memory_game_T2\\Memory_game_T2\\Models\\Card.cs",
+              "RelativeDocumentMoniker": "Memory_game_T2\\Models\\Card.cs",
+              "ToolTip": "C:\\Users\\user\\Documents\\Downloads\\Memory_game_T2\\Memory_game_T2\\Memory_game_T2\\Models\\Card.cs",
+              "RelativeToolTip": "Memory_game_T2\\Models\\Card.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAuwIIAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-08T10:09:11.804Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "GameVM.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Documents\\Downloads\\Memory_game_T2\\Memory_game_T2\\Memory_game_T2\\ViewModels\\GameVM.cs",
+              "RelativeDocumentMoniker": "Memory_game_T2\\ViewModels\\GameVM.cs",
+              "ToolTip": "C:\\Users\\user\\Documents\\Downloads\\Memory_game_T2\\Memory_game_T2\\Memory_game_T2\\ViewModels\\GameVM.cs",
+              "RelativeToolTip": "Memory_game_T2\\ViewModels\\GameVM.cs",
+              "ViewState": "AgIAAMwAAAAAAAAAAAAkwNoAAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-08T10:12:36.351Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "GameWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\user\\Documents\\Downloads\\Memory_game_T2\\Memory_game_T2\\Memory_game_T2\\Views\\GameWindow.xaml",
+              "RelativeDocumentMoniker": "Memory_game_T2\\Views\\GameWindow.xaml",
+              "ToolTip": "C:\\Users\\user\\Documents\\Downloads\\Memory_game_T2\\Memory_game_T2\\Memory_game_T2\\Views\\GameWindow.xaml",
+              "RelativeToolTip": "Memory_game_T2\\Views\\GameWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-04-09T16:31:03.371Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Documents\\Downloads\\Memory_game_T2\\Memory_game_T2\\Memory_game_T2\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "Memory_game_T2\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\user\\Documents\\Downloads\\Memory_game_T2\\Memory_game_T2\\Memory_game_T2\\MainWindow.xaml.cs",
+              "RelativeToolTip": "Memory_game_T2\\MainWindow.xaml.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAmwBQAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-02T16:39:39.668Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "LoginVM.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Documents\\Downloads\\Memory_game_T2\\Memory_game_T2\\Memory_game_T2\\ViewModels\\LoginVM.cs",
+              "RelativeDocumentMoniker": "Memory_game_T2\\ViewModels\\LoginVM.cs",
+              "ToolTip": "C:\\Users\\user\\Documents\\Downloads\\Memory_game_T2\\Memory_game_T2\\Memory_game_T2\\ViewModels\\LoginVM.cs",
+              "RelativeToolTip": "Memory_game_T2\\ViewModels\\LoginVM.cs",
+              "ViewState": "AgIAAMgAAAAAAAAAAAAvwPAAAABOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-07T17:02:20.674Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\user\\Documents\\Downloads\\Memory_game_T2\\Memory_game_T2\\Memory_game_T2\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "Memory_game_T2\\MainWindow.xaml",
+              "ToolTip": "C:\\Users\\user\\Documents\\Downloads\\Memory_game_T2\\Memory_game_T2\\Memory_game_T2\\MainWindow.xaml",
+              "RelativeToolTip": "Memory_game_T2\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-04-02T16:39:56.487Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "MenuPage.xaml",
+              "DocumentMoniker": "C:\\Users\\user\\Documents\\Downloads\\Memory_game_T2\\Memory_game_T2\\Memory_game_T2\\Views\\MenuPage.xaml",
+              "RelativeDocumentMoniker": "Memory_game_T2\\Views\\MenuPage.xaml",
+              "ToolTip": "C:\\Users\\user\\Documents\\Downloads\\Memory_game_T2\\Memory_game_T2\\Memory_game_T2\\Views\\MenuPage.xaml",
+              "RelativeToolTip": "Memory_game_T2\\Views\\MenuPage.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-04-08T10:44:19.143Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "GameWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Documents\\Downloads\\Memory_game_T2\\Memory_game_T2\\Memory_game_T2\\Views\\GameWindow.xaml.cs",
+              "RelativeDocumentMoniker": "Memory_game_T2\\Views\\GameWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\user\\Documents\\Downloads\\Memory_game_T2\\Memory_game_T2\\Memory_game_T2\\Views\\GameWindow.xaml.cs",
+              "RelativeToolTip": "Memory_game_T2\\Views\\GameWindow.xaml.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAiwBMAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-09T16:31:34.843Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "MenuPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Documents\\Downloads\\Memory_game_T2\\Memory_game_T2\\Memory_game_T2\\Views\\MenuPage.xaml.cs",
+              "RelativeDocumentMoniker": "Memory_game_T2\\Views\\MenuPage.xaml.cs",
+              "ToolTip": "C:\\Users\\user\\Documents\\Downloads\\Memory_game_T2\\Memory_game_T2\\Memory_game_T2\\Views\\MenuPage.xaml.cs",
+              "RelativeToolTip": "Memory_game_T2\\Views\\MenuPage.xaml.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAQwBkAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-08T17:12:26.245Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "CustomGameModeDialog.xaml",
+              "DocumentMoniker": "C:\\Users\\user\\Documents\\Downloads\\Memory_game_T2\\Memory_game_T2\\Memory_game_T2\\Views\\CustomGameModeDialog.xaml",
+              "RelativeDocumentMoniker": "Memory_game_T2\\Views\\CustomGameModeDialog.xaml",
+              "ToolTip": "C:\\Users\\user\\Documents\\Downloads\\Memory_game_T2\\Memory_game_T2\\Memory_game_T2\\Views\\CustomGameModeDialog.xaml",
+              "RelativeToolTip": "Memory_game_T2\\Views\\CustomGameModeDialog.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-04-10T00:11:03.359Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "CustomGameModeDialog.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Documents\\Downloads\\Memory_game_T2\\Memory_game_T2\\Memory_game_T2\\Views\\CustomGameModeDialog.xaml.cs",
+              "RelativeDocumentMoniker": "Memory_game_T2\\Views\\CustomGameModeDialog.xaml.cs",
+              "ToolTip": "C:\\Users\\user\\Documents\\Downloads\\Memory_game_T2\\Memory_game_T2\\Memory_game_T2\\Views\\CustomGameModeDialog.xaml.cs",
+              "RelativeToolTip": "Memory_game_T2\\Views\\CustomGameModeDialog.xaml.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAkwDYAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-09T23:54:19.486Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "RelayCommand.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Documents\\Downloads\\Memory_game_T2\\Memory_game_T2\\Memory_game_T2\\Commands\\RelayCommand.cs",
+              "RelativeDocumentMoniker": "Memory_game_T2\\Commands\\RelayCommand.cs",
+              "ToolTip": "C:\\Users\\user\\Documents\\Downloads\\Memory_game_T2\\Memory_game_T2\\Memory_game_T2\\Commands\\RelayCommand.cs",
+              "RelativeToolTip": "Memory_game_T2\\Commands\\RelayCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-07T17:00:59.859Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "App.xaml",
+              "DocumentMoniker": "C:\\Users\\user\\Documents\\Downloads\\Memory_game_T2\\Memory_game_T2\\Memory_game_T2\\App.xaml",
+              "RelativeDocumentMoniker": "Memory_game_T2\\App.xaml",
+              "ToolTip": "C:\\Users\\user\\Documents\\Downloads\\Memory_game_T2\\Memory_game_T2\\Memory_game_T2\\App.xaml",
+              "RelativeToolTip": "Memory_game_T2\\App.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-04-09T19:11:15.212Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "ResourcePart.cs",
+              "DocumentMoniker": "C:\\Users\\user\\AppData\\Local\\Temp\\.vsdbgsrc\\b49ace08f4cd26a4f275d628999a0f91ccb8a1892704530d9e6f5bd1284082f1\\ResourcePart.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\AppData\\Local\\Temp\\.vsdbgsrc\\b49ace08f4cd26a4f275d628999a0f91ccb8a1892704530d9e6f5bd1284082f1\\ResourcePart.cs",
+              "ToolTip": "C:\\Users\\user\\AppData\\Local\\Temp\\.vsdbgsrc\\b49ace08f4cd26a4f275d628999a0f91ccb8a1892704530d9e6f5bd1284082f1\\ResourcePart.cs [Read Only]",
+              "RelativeToolTip": "..\\..\\..\\..\\AppData\\Local\\Temp\\.vsdbgsrc\\b49ace08f4cd26a4f275d628999a0f91ccb8a1892704530d9e6f5bd1284082f1\\ResourcePart.cs [Read Only]",
+              "ViewState": "AgIAABkAAAAAAAAAAAAkwCcAAAAEAAAAAQAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-09T17:23:21.683Z",
+              "EditorCaption": " [Read Only]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "StatisticsVM.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Documents\\Downloads\\Memory_game_T2\\Memory_game_T2\\Memory_game_T2\\ViewModels\\StatisticsVM.cs",
+              "RelativeDocumentMoniker": "Memory_game_T2\\ViewModels\\StatisticsVM.cs",
+              "ToolTip": "C:\\Users\\user\\Documents\\Downloads\\Memory_game_T2\\Memory_game_T2\\Memory_game_T2\\ViewModels\\StatisticsVM.cs",
+              "RelativeToolTip": "Memory_game_T2\\ViewModels\\StatisticsVM.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-08T10:38:56.058Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Documents\\Downloads\\Memory_game_T2\\Memory_game_T2\\Memory_game_T2\\Models\\User.cs",
+              "RelativeDocumentMoniker": "Memory_game_T2\\Models\\User.cs",
+              "ToolTip": "C:\\Users\\user\\Documents\\Downloads\\Memory_game_T2\\Memory_game_T2\\Memory_game_T2\\Models\\User.cs",
+              "RelativeToolTip": "Memory_game_T2\\Models\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-07T16:46:57.245Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
