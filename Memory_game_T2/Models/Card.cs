@@ -18,6 +18,7 @@ namespace Memory_game_T2.Models
         private bool _isMatched;
         private string _category;
         private ImageSource _cachedImage;
+        
 
         public string ImageCardPath
         {
@@ -75,35 +76,31 @@ namespace Memory_game_T2.Models
         {
             get
             {
-                // Return cached image if available
                 if (_cachedImage != null)
                     return _cachedImage;
 
                 try
                 {
-                    // Get the base directory of the application
-                    string baseDirectory = AppDomain.CurrentDomain.BaseDirectory;
+                    string baseDirectory = AppDomain.CurrentDomain.BaseDirectory; // get  base directory of the application
 
-                    // Go up three directories from the bin/Debug/net folder to reach the project root
-                    string projectRoot = Path.GetFullPath(Path.Combine(baseDirectory, "..", "..", ".."));
+                    
+                    string projectRoot = Path.GetFullPath(Path.Combine(baseDirectory, "..", "..", "..")); //go up 3 direct from the bin/Debug/net folder, to reach the root
 
-                    // Combine to get the full path to the image
-                    string fullPath = Path.Combine(projectRoot, "Assets", _category, _imageCardPath);
+                    
+                    string fullPath = Path.Combine(projectRoot, "Assets", _category, _imageCardPath); // combine to get the full path to the image
 
                     Console.WriteLine($"Attempting to load image from: {fullPath}");
 
                     if (File.Exists(fullPath))
                     {
                         Console.WriteLine($"File exists: {fullPath}");
-                        // Create a BitmapImage with the correct settings
-                        var bitmapImage = new BitmapImage();
+                        var bitmapImage = new BitmapImage(); // create a BitmapImage with the correct settings
                         bitmapImage.BeginInit();
                         bitmapImage.CacheOption = BitmapCacheOption.OnLoad;
                         bitmapImage.UriSource = new Uri(fullPath, UriKind.Absolute);
                         bitmapImage.EndInit();
-                        bitmapImage.Freeze(); // This helps with performance
+                        bitmapImage.Freeze(); 
 
-                        // Cache the image
                         _cachedImage = bitmapImage;
                         return bitmapImage;
                     }

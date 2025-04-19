@@ -15,10 +15,6 @@ using Newtonsoft.Json;
 using Memory_game_T2.Commands;
 using System.Windows;
 
-//aifsare utiliz existenti, adaugare usrr nou, selectare image,
-//activare but play si delete doar cand un user e selectat
-//salvare in json si incarcare din fis
-
 namespace Memory_game_T2.ViewModels
 {
     public class LoginVM : INotifyPropertyChanged
@@ -28,8 +24,6 @@ namespace Memory_game_T2.ViewModels
         private User _selectedUser;
         private List<string> Images = new();
         private int currentImgIndex = 0;
-
-
         public ObservableCollection<User> Users { get; set; } = new();
         public string Username
         {
@@ -70,8 +64,6 @@ namespace Memory_game_T2.ViewModels
 
         public bool CanPlay => SelectedUser != null;
         public bool CanDelete => SelectedUser != null;
-
-        //public object JsonConvert { get; private set; }
 
         private readonly string userFilePath = "Data/users.json";
 
@@ -124,20 +116,18 @@ namespace Memory_game_T2.ViewModels
                 SaveUsers();
             }
         }
-
-        private void Play() //cand dau click pe play
+        private void Play() // click pe play
         {
             var menuPage = new MenuPage(); //creare instanta a MenuPage
-            string category = "default"; // Replace with appropriate category
-            int rows = 4; // Default rows
-            int columns = 4; // Default columns
+            string category = "default"; // replace with chosen category
+            int rows = 4; // default 
+            int columns = 4; 
 
             menuPage.DataContext = new MenuVM(category, rows, columns);
 
             if (Application.Current.MainWindow is MainWindow mainWindow)
             {
-                // mainWindow.MainFrame.Content = menuPage;
-                mainWindow.LoginArea.Visibility = Visibility.Collapsed; // Ascunde zona de login
+                mainWindow.LoginArea.Visibility = Visibility.Collapsed; 
                 mainWindow.MainFrame.Content = menuPage;
             }
         }
@@ -155,7 +145,6 @@ namespace Memory_game_T2.ViewModels
                 }
                 catch (Exception ex)
                 {
-                    // Log or display the error
                     System.Diagnostics.Debug.WriteLine($"Error loading users: {ex.Message}");
                 }
             }
@@ -168,21 +157,18 @@ namespace Memory_game_T2.ViewModels
                 var imagesFolder = Path.Combine(Directory.GetCurrentDirectory(), "../../../Assets");
                 System.Diagnostics.Debug.WriteLine($"Looking for images in: {imagesFolder}");
 
-                // Create Assets folder if it doesn't exist
-                if (!Directory.Exists(imagesFolder))
-                {
-                    Directory.CreateDirectory(imagesFolder);
-                    System.Diagnostics.Debug.WriteLine("Assets folder created");
-                }
+                //// Create Assets folder if it doesn't exist
+                //if (!Directory.Exists(imagesFolder))
+                //{
+                //    Directory.CreateDirectory(imagesFolder);
+                //    System.Diagnostics.Debug.WriteLine("Assets folder created");
+                //}
 
-                // Get jpg files
                 var jpgFiles = Directory.GetFiles(imagesFolder, "*.jpg");
-                // Get png files
                 var pngFiles = Directory.GetFiles(imagesFolder, "*.png");
-                // Get gif files
                 var gifFiles = Directory.GetFiles(imagesFolder, "*.gif");
-                // Combine all image files
-                Images = jpgFiles.Concat(pngFiles).Concat(gifFiles).ToList();
+                
+                Images = jpgFiles.Concat(pngFiles).Concat(gifFiles).ToList(); // combine all image types
 
                 System.Diagnostics.Debug.WriteLine($"Found {Images.Count} images");
 
@@ -195,13 +181,13 @@ namespace Memory_game_T2.ViewModels
                 else
                 {
                     System.Diagnostics.Debug.WriteLine("No images found in Assets folder");
-                    SelectedImgPath = ""; // Clear selection if no images
+                    SelectedImgPath = ""; 
                 }
             }
             catch (Exception ex)
             {
                 System.Diagnostics.Debug.WriteLine($"Error loading images: {ex.Message}");
-                SelectedImgPath = ""; // Clear selection on error
+                SelectedImgPath = ""; 
             }
         }
 

@@ -61,11 +61,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\user\\Documents\\Downloads\\Memory_game_T2\\Memory_game_T2\\Memory_game_T2\\Memory_game_T2.csproj",
+      "projectUniqueName": "C:\\Users\\user\\Desktop\\FACULTATE\\Memory_game_T2\\Memory_game_T2\\Memory_game_T2.csproj",
       "projectName": "Memory_game_T2",
-      "projectPath": "C:\\Users\\user\\Documents\\Downloads\\Memory_game_T2\\Memory_game_T2\\Memory_game_T2\\Memory_game_T2.csproj",
+      "projectPath": "C:\\Users\\user\\Desktop\\FACULTATE\\Memory_game_T2\\Memory_game_T2\\Memory_game_T2.csproj",
       "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\user\\Documents\\Downloads\\Memory_game_T2\\Memory_game_T2\\Memory_game_T2\\obj\\",
+      "outputPath": "C:\\Users\\user\\Desktop\\FACULTATE\\Memory_game_T2\\Memory_game_T2\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

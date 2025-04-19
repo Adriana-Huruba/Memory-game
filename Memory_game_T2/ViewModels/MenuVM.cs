@@ -25,9 +25,6 @@ namespace Memory_game_T2.ViewModels
         public ICommand ShowAboutCommand { get; }
         public ICommand SelectCategoryCommand { get; }
         public ICommand SetGameModeCommand { get; }
-
-        //private RelayCommand setGameModeCommand;
-        //public ICommand SetGameModeCommand => setGameModeCommand ??= new RelayCommand(SetGameMode);
         public string Category
         {
             get => _category;
@@ -57,7 +54,6 @@ namespace Memory_game_T2.ViewModels
                 OnPropertyChanged();
             }
         }
-
         public MenuVM(string category, int rows, int columns)
         {
             _category = category;
@@ -77,8 +73,6 @@ namespace Memory_game_T2.ViewModels
         private void StartNewGame()
         {
             var gameWindow = new GameWindow(_category, _rows, _columns);
-            //var gameVM = new GameVM(_category, _rows, _columns);
-           // gameWindow.DataContext = gameVM;
             gameWindow.Show();
         }
 
@@ -113,25 +107,22 @@ namespace Memory_game_T2.ViewModels
 
         private void OpenSavedGame() 
         {
-            /* Logica pentru deschiderea unui joc salvat */ 
+             
         }
         private void SaveCurrentGame() 
         {
-            /* Logica pentru salvarea jocului curent */ 
+             
         }
         private void ShowStatistics() 
         {
-            /* Logica pentru afișarea statisticilor */
+            
         }
         private void ExitApplication()
         {
-            //Application.Current.Shutdown();
             if (Application.Current.MainWindow is MainWindow mainWindow)
             {
-                //var loginPage = new MainWindow(); // aici ies de tot..........
-                //mainWindow.MainFrame.Content = loginPage;
                 mainWindow.MainFrame.Content = null;
-                mainWindow.LoginArea.Visibility = Visibility.Visible; //ma duc la login
+                mainWindow.LoginArea.Visibility = Visibility.Visible; 
             }
         }
         private void ShowAbout()

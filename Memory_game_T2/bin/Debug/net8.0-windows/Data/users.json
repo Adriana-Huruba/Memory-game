@@ -1,50 +1,42 @@
 [
   {
-    "UserName": "mama",
-    "Image": "Assets\\arici.jpg",
-    "GamesPlayed": 0,
-    "GamesWon": 0
-  },
-  {
-    "UserName": "adri",
-    "Image": "Assets\\pisica.jpg",
-    "GamesPlayed": 0,
-    "GamesWon": 0
-  },
-  {
     "UserName": "eu",
     "Image": "Assets\\arici.jpg",
     "GamesPlayed": 0,
-    "GamesWon": 0
+    "GamesWon": 0,
+    "TotalTimePlayed": "00:00:00",
+    "FormattedTime": "0 min 0 sec"
   },
   {
     "UserName": "2",
     "Image": "Assets\\panda.jpg",
     "GamesPlayed": 0,
-    "GamesWon": 0
+    "GamesWon": 0,
+    "TotalTimePlayed": "00:00:00",
+    "FormattedTime": "0 min 0 sec"
   },
   {
     "UserName": "4",
     "Image": "Assets\\arici.jpg",
     "GamesPlayed": 0,
-    "GamesWon": 0
+    "GamesWon": 0,
+    "TotalTimePlayed": "00:00:00",
+    "FormattedTime": "0 min 0 sec"
   },
   {
-    "UserName": "canili",
-    "Image": "..\\..\\..\\Assets\\caine.jpg",
-    "GamesPlayed": 0,
-    "GamesWon": 0
-  },
-  {
-    "UserName": "pengu",
+    "UserName": "Dan",
     "Image": "..\\..\\..\\Assets\\pingu.jpg",
     "GamesPlayed": 0,
-    "GamesWon": 0
+    "GamesWon": 0,
+    "TotalTimePlayed": "00:00:00",
+    "FormattedTime": "0 min 0 sec"
   },
   {
-    "UserName": "nati",
+    "UserName": "Andrei",
     "Image": "..\\..\\..\\Assets\\caine.jpg",
     "GamesPlayed": 0,
-    "GamesWon": 0
+    "GamesWon": 0,
+    "TotalTimePlayed": "00:00:00",
+    "FormattedTime": "0 min 0 sec"
   }
 ]

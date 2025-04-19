@@ -21,10 +21,11 @@ namespace Memory_game_T2.ViewModels
         private int _rows;
         private int _columns;
         private Card _firstCard;
-        private DispatcherTimer _timer;
+        private DispatcherTimer _timer; //timer
         private TimeSpan _timeLeft;
         private int _flips; 
         private int _pairsFound;
+
         private static readonly IReadOnlyDictionary<string, string> CategoryPaths = new Dictionary<string, string>()
         {
             {"Disney", "../../../Assets/Disney" },
@@ -54,7 +55,7 @@ namespace Memory_game_T2.ViewModels
                 OnPropertyChanged(nameof(Rows));
             }
         }
-        public string TimeLeftDisplay => _timeLeft.ToString(@"mm\:ss");
+        public string TimeLeftDisplay => _timeLeft.ToString(@"mm\:ss"); //minutes & seconds
         public int Flips => _flips;
         public int PairsFound => _pairsFound;
 
@@ -69,29 +70,29 @@ namespace Memory_game_T2.ViewModels
 
             _timer = new DispatcherTimer();
             _timer.Interval = TimeSpan.FromSeconds(1);
-            _timer.Tick += TimerTick;
-
+            _timer.Tick += TimerTick; //se apeleaza fct Timertick la fiecare ticait
+            
             StartNewGame();
         }
         private void StartNewGame()
         {
             _flips = 0;
             _pairsFound = 0;
-            _timeLeft = TimeSpan.FromMinutes(2); //initial time 2 minutes
+            _timeLeft = TimeSpan.FromMinutes(1); //initial time 1 minute
             OnPropertyChanged(nameof(Flips));
             OnPropertyChanged(nameof(PairsFound));
             OnPropertyChanged(nameof(TimeLeftDisplay));
 
             InitializeGame();
-            _timer.Start();
+            _timer.Start(); 
         }
 
         private void TimerTick(object sender, EventArgs e)
         {
-            _timeLeft = _timeLeft.Subtract(TimeSpan.FromSeconds(1));
-            OnPropertyChanged(nameof(TimeLeftDisplay));
+            _timeLeft = _timeLeft.Subtract(TimeSpan.FromSeconds(1)); //scad cate o sec
+            OnPropertyChanged(nameof(TimeLeftDisplay)); //actualizez UI-ul
 
-            if (_timeLeft <= TimeSpan.Zero)
+            if (_timeLeft <= TimeSpan.Zero) //timeleft<=0->se opreste timpul
             {
                 _timer.Stop();
                 MessageBox.Show("Time's up! You lost!");
@@ -108,7 +109,7 @@ namespace Memory_game_T2.ViewModels
                 return;
             }
 
-            MessageBox.Show($"Found {images.Count} images in category {_category}.");
+            //MessageBox.Show($"Found {images.Count} images in category {_category}.");
             int cardCount = _rows * _columns;
 
             if (cardCount % 2 != 0)
@@ -130,7 +131,7 @@ namespace Memory_game_T2.ViewModels
             foreach (var img in images)
             {
                 cardsList.Add(new Card(img, _category));
-                cardsList.Add(new Card(img, _category)); // Two cards per image for matching
+                cardsList.Add(new Card(img, _category)); // 2 cards per image for matching
             }
 
             var random = new Random();
@@ -151,20 +152,14 @@ namespace Memory_game_T2.ViewModels
                 return images;
             }
 
-            // Get the base directory of the application
-            string baseDirectory = AppDomain.CurrentDomain.BaseDirectory;
-
-            // Go up three directories to reach the project root
-            string projectRoot = Path.GetFullPath(Path.Combine(baseDirectory, "..", "..", ".."));
-
-            // Path to the category folder
-            string fullFolderPath = Path.Combine(projectRoot, "Assets", category);
+            string baseDirectory = AppDomain.CurrentDomain.BaseDirectory;          
+            string projectRoot = Path.GetFullPath(Path.Combine(baseDirectory, "..", "..", ".."));   // go back 3 directories to reach the project root
+            string fullFolderPath = Path.Combine(projectRoot, "Assets", category);  // path to the category folder Assets
 
             Console.WriteLine($"Looking for images in folder: {fullFolderPath}");
 
             if (Directory.Exists(fullFolderPath))
             {
-                // Search for image files with the desired extensions
                 var imageFiles = Directory.GetFiles(fullFolderPath, "*.*")
                     .Where(f => f.EndsWith(".jpg", StringComparison.OrdinalIgnoreCase) ||
                            f.EndsWith(".png", StringComparison.OrdinalIgnoreCase) ||
@@ -172,12 +167,10 @@ namespace Memory_game_T2.ViewModels
 
                 foreach (var file in imageFiles)
                 {
-                    // Just use the filename, we'll reconstruct the path when needed
                     var fileName = Path.GetFileName(file);
                     images.Add(fileName);
                     Console.WriteLine($"Found image: {fileName}");
                 }
-
                 Console.WriteLine($"Found {images.Count} images in category {category}.");
             }
             else
@@ -193,44 +186,36 @@ namespace Memory_game_T2.ViewModels
             if (cardObj is not Card card)
                 return;
 
-            // Don't allow clicking already flipped or matched cards
-            if (card.IsFlipped || card.IsMatched)
+            if (card.IsFlipped || card.IsMatched)  // not allow clicking already flipped/matched cards
                 return;
 
             Console.WriteLine($"Card clicked: {card.ImageCardPath}");
-
-            // Flip the card
             card.IsFlipped = true;
             _flips++;
             OnPropertyChanged(nameof(Flips));
 
             if (_firstCard == null)
             {
-                // This is the first card in the pair
                 _firstCard = card;
                 Console.WriteLine("First card selected");
             }
-            else // This is the second card
+            else //  second card
             {
                 Console.WriteLine("Second card selected");
-
-                // Check if we have a match
-                if (_firstCard.ImageCardPath == card.ImageCardPath)
+                if (_firstCard.ImageCardPath == card.ImageCardPath) //match
                 {
                     Console.WriteLine("Cards match!");
-                    // Cards match
                     _pairsFound++;
                     OnPropertyChanged(nameof(PairsFound));
 
-                    // Mark both cards as matched
                     _firstCard.IsMatched = true;
                     card.IsMatched = true;
 
-                    // Reset the first card selection
-                    _firstCard = null;
-
-                    // Check for win condition
-                    if (_pairsFound == _rows * _columns / 2)
+                    _firstCard.IsFlipped = true; //
+                    card.IsFlipped = true;
+                  
+                    _firstCard = null; //reset the first card
+                    if (_pairsFound == _rows * _columns / 2) //found all the matches
                     {
                         _timer.Stop();
                         MessageBox.Show("Congratulations! You won!");
@@ -238,20 +223,28 @@ namespace Memory_game_T2.ViewModels
                 }
                 else
                 {
-                    Console.WriteLine("Cards don't match!");
-                    // Cards don't match - flip them back after a delay
-                    _timer.Stop(); // Pause the main timer
+                    Console.WriteLine("Cards don't match!"); // flip them back after a delay
 
-                    // Create a short timer to show the cards briefly
-                    var flipBackTimer = new DispatcherTimer { Interval = TimeSpan.FromMilliseconds(1000) };
-                    flipBackTimer.Tick += (s, e) =>
+                    var first = _firstCard;
+                    var second = card;
+
+                    _timer.Stop(); // pause the main timer
+
+                    var flipBackTimer = new DispatcherTimer { Interval = TimeSpan.FromMilliseconds(1000) }; // create a short timer to show the cards 
+                    
+                    flipBackTimer.Tick += (s, e) => //temporar timer
                     {
                         flipBackTimer.Stop();
                         Console.WriteLine("Flipping cards back");
-                        _firstCard.IsFlipped = false;
-                        card.IsFlipped = false;
+
+                        if (first != null) 
+                            first.IsFlipped = false; //flip the first card
+
+                        if (second != null)
+                            second.IsFlipped = false; //flip the 2nd card
+
                         _firstCard = null;
-                        _timer.Start(); // Restart the main timer
+                        _timer.Start(); // start the main timer
                     };
                     flipBackTimer.Start();
                 }

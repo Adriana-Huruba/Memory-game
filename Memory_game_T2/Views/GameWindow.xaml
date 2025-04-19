@@ -43,7 +43,7 @@
                                 <Setter Property="FontSize" Value="36"/>
                                 <Setter Property="FontWeight" Value="Bold"/>
                                 <Style.Triggers>
-                             
+
                                     <DataTrigger Binding="{Binding IsFlipped}" Value="True">
                                         <Setter Property="Background" Value="White"/>
                                         <Setter Property="Content">
@@ -52,7 +52,7 @@
                                             </Setter.Value>
                                         </Setter>
                                     </DataTrigger>
-                                    
+
                                     <DataTrigger Binding="{Binding IsMatched}" Value="True">
                                         <Setter Property="Background" Value="LightGreen"/>
                                         <Setter Property="BorderBrush" Value="Green"/>
@@ -63,6 +63,7 @@
                                             </Setter.Value>
                                         </Setter>
                                     </DataTrigger>
+
                                 </Style.Triggers>
                             </Style>
                         </Button.Style>
